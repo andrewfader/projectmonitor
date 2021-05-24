@@ -38,7 +38,8 @@ GEM
       tzinfo (~> 1.1)
     acts-as-taggable-on (3.5.0)
       activerecord (>= 3.2, < 5)
-    addressable (2.4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     airbrake (4.3.8)
       builder
       multi_json
@@ -120,13 +121,13 @@ GEM
       execjs
     eco-source (1.1.0.rc.1)
     ejs (1.1.1)
-    em-http-request (1.1.5)
+    em-http-request (1.1.6)
       addressable (>= 2.3.4)
       cookiejar (!= 0.3.1)
       em-socksify (>= 0.3)
       eventmachine (>= 1.0.3)
       http_parser.rb (>= 0.6.0)
-    em-socksify (0.3.1)
+    em-socksify (0.3.2)
       eventmachine (>= 1.0.0.beta.4)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -280,6 +281,7 @@ GEM
       pry (>= 0.9.10, < 0.11.0)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
+    public_suffix (4.0.6)
     puma (3.12.6)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
